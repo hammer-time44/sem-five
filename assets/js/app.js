@@ -20,7 +20,7 @@ function draw(){
 }
 function go(i){if(i<0||i>=D.length)return;cur=i;lock=true;nav.classList.add("shut");history.replaceState(null,"","#"+D[i].id);drawNav();draw();scrollTo(0,0)}
 addEventListener("keydown",x=>{if(x.target.closest&&x.target.closest("button"))return;if(x.key=="ArrowRight"||x.key=="j")go(cur+1);if(x.key=="ArrowLeft"||x.key=="k")go(cur-1)});
-const HOT=56,W=260;
+const HOT=56,W=220;
 addEventListener("mousemove",ev=>{if(innerWidth<=760)return;const x=ev.clientX,s=nav.classList.contains("shut");
   if(x>HOT)lock=false;
   if(s&&x<=HOT&&!lock)nav.classList.remove("shut");
