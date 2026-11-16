@@ -41,6 +41,6 @@ To change a subject's colour, edit the `P` map at the top of `assets/js/app.js`.
 
 ## Navigation
 
-- Move the mouse to the left edge to open the sidebar; it closes after you pick a subject.
+- A slim rail of bars sits on the left, one per subject; the current one is long and bright. Bars swell toward the cursor and a small label with the subject abbreviation glides alongside; click to switch.
 - `←` / `→` (or `k` / `j`) switch subjects.
 - Each subject has its own link, for example `#os`.
